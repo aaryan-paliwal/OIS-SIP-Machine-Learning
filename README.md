@@ -133,13 +133,12 @@ Each task is organized in its own folder for clarity and modularity:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
-   cd <repo-directory>
+   git clone https://github.com/aaryan-paliwal/OIS-SIP-Machine-Learning.git
    ```
 2. **Create and activate a virtual environment (recommended):**
    ```bash
    python -m venv venv
-   venv\Scripts\activate  # On Windows
+   venv\Scripts\Activate.ps1  # On Windows
    # or
    source venv/bin/activate  # On macOS/Linux
    ```
@@ -165,11 +164,7 @@ Each task is organized in its own folder for clarity and modularity:
 3. **Open the notebook file in your browser and run the cells sequentially.**
    - All file paths in the notebooks assume the CSV is in the same folder as the notebook.
    - Outputs, plots, and results will appear as you run each cell.
-
-4. **(Optional) Use VS Code:**
-   - Install the "Jupyter" extension by Microsoft.
-   - Open any `.ipynb` file inside its task folder and run cells interactively.
-
+  
 ---
 
 ## Troubleshooting & Tips
